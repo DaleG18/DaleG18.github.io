@@ -1,0 +1,33 @@
+body {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #F8F0E3;
+}
+
+table{
+    border-collapse: collapes;
+    margin:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+thead{
+    background-color: darkorange;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.right{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: orange;
+}
+.words{
+    text-align: center;
+}
