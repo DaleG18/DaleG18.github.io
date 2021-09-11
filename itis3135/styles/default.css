@@ -4,8 +4,8 @@
 
 body
 {
-	font-family: Luminari, fantasy ;
-	color: rgb(249,101,21) ;
+	font-family: Luminari, fantasy, ;
+	color: rgb(0, 0, 0) ;
 	background-color: rgb(109, 113, 46);
 	margin-left: 75px;
 	margin-right: 75px;
@@ -49,4 +49,31 @@ figcaption
 nav
 {
 	text-align: center;
+}
+table{
+    border-collapse: collapse;
+    margin:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+thead{
+    background-color: darkorange;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.right{
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) td{
+    background-color: orange;
+}
+.words{
+    text-align: center;
 }
