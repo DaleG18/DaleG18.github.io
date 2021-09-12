@@ -77,3 +77,13 @@ tbody tr:nth-child(odd) td{
 .words{
     text-align: center;
 }
+button{
+	color:white;
+	background-color:rebeccapurple;
+}
+input{
+	font-weight: 50px;
+	font-size: 16px;
+	background-color: #fff5ee;
+	font-family: -apple-system, sans-serif;
+}
