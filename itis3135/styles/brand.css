@@ -1,0 +1,38 @@
+/*
+https://coolors.co/593f62-70b77e-495f41-788bff-e55812
+*/
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(89,63,98);
+    background-color:rgb(120,139,255);
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header, footer{
+    text-align:center;
+}
+
+h1,h2,h3{
+    font-family:sans-serif;
+    text-align: center;
+    line-height: 0px;
+}
+a{
+    text-decoration: none;
+    color:rgb(112,183,126);
+    font-weight:bold;
+}
+a:hover{
+    text-decoration: rgb(73,95,65);
+}
+figure{
+    text-align:center;
+}
+figcaption{
+    font-style:italic;
+}
+nav{
+    text-align:center;
+}
