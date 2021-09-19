@@ -1,12 +1,13 @@
 /* got this from coolors.co - please improve!
  https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+ 
 */
 
 body
 {
 	font-family:Palatino, URW Palladio L, serif;
-	color: rgb(0, 0, 0) ;
-	background-color: rgb(109, 113, 46);
+	color: rgb(1,41,95) ;
+	background-color: rgb(255,248,231);
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -14,6 +15,7 @@ body
 header, footer
 {
 	text-align: center;
+	color: rgb(109, 113, 46);
 }
 
 h1, h2, h3
@@ -21,12 +23,13 @@ h1, h2, h3
 	font-family: Palatino, URW Palladio L, serif;
 	text-align: center;
 	line-height: 0px;
+	color:rgb(255, 91, 46);
 }
 
 a
 {
 	text-decoration: none;
-	color: rgb(173, 68, 7);
+	color: rgb(109, 113, 46);
 	font-weight: bold;
 }
 
@@ -86,4 +89,7 @@ input{
 	font-size: 16px;
 	background-color: #fff5ee;
 	font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+ul{
+	list-style-type: square;
 }
