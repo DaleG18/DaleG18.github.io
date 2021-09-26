@@ -6,7 +6,7 @@ var yourName = window.prompt("What is your name?");
 
         document.write("<br>The Diabolical Gorillas LLC. welcomes you, " + yourName + " to the Gorilla Gang!");
 
-        document.write("We're glad you are doing " + feels + "!");
+        document.write("<br>We're glad you are doing " + feels + "!");
 
 function addGorillas(){
     var ape1, ape2;
