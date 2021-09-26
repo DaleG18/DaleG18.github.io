@@ -2,7 +2,7 @@ var yourName = window.prompt("What is your name?");
     var feels = window.prompt("How are you doing?");
         var today = new Date();
 
-        document.write("Today is " + today.toDateString() + " and the time is " + today.getHours() + ":" + today.getMinutes());
+        document.write("<br>Today is " + today.toDateString() + " and the time is " + today.getHours() + ":" + today.getMinutes());
 
         document.write("<br>The Diabolical Gorillas LLC. welcomes you, " + yourName + " to the Gorilla Gang!");
 
