@@ -18,19 +18,12 @@ header, footer
 	color: rgb(109, 113, 46);
 }
 
-h1,h3
+h1,h2,h3
 {
 	font-family: Palatino, URW Palladio L, serif;
 	text-align: center;
 	line-height: 0px;
 	color:rgb(255, 91, 46);
-}
-h2
-{
-	font-family: Palatino, URW Palladio L, serif;
-	text-align: center;
-	line-height: 0px;
-	color: rgb(109, 113, 46);
 }
 
 a
