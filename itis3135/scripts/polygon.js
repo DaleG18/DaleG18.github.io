@@ -14,7 +14,7 @@ function getShape(yourNum){
     else if(yourNum == 3)
         {document.write("This is a triangle");}
     else if(yourNum == 4)
-        {document.write("This is a square");}
+        {document.write("This is a quadrilateral or a square");}
     else if(yourNum ==5)
         {document.write("This is a pentagon");}
     else if(yourNum == 6)
