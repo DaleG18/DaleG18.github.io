@@ -93,3 +93,10 @@ input{
 ul{
 	list-style-type: square;
 }
+button{
+	padding: 20px;
+	text-align: center;
+	border-radius: 20px;
+	color: orange;
+	font-size: 18px;
+}
