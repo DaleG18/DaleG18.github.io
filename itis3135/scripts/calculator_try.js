@@ -1,21 +1,20 @@
 var x = window.prompt("Enter first number?");
-    var y = window.prompt("Enter second number?");
+var y = window.prompt("Enter second number?");
 
-function add(){
+function add()    {
     addNum = +x + +y;
-    alert(addNum);
-}
+    alert(addNum);}
+
 
 function subtract(){
     subNum = x - y; 
-    alert(subNum);
-}
+    alert(subNum); }
+
 
 function multiply(){
     mulNum = x * y;
-    alert(mulNum);
-}
-function divide(){
+    alert(mulNum); }
+
+function divide() {
     divNum = x / y;
-    alert(divNum);
-}
+    alert(divNum);}
