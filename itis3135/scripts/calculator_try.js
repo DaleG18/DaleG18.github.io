@@ -2,12 +2,12 @@ var x = window.prompt("Enter first number?");
     var y = window.prompt("Enter second number?");
 
 function add(){
-    addNum = x + y 
+    addNum = +x + +y;
     alert(addNum);
 }
 
 function subtract(){
-    subNum = x - y 
+    subNum = x - y; 
     alert(subNum);
 }
 
