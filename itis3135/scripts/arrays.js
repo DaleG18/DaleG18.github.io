@@ -2,7 +2,12 @@ var person=["Lawrence","Jordan","Abdul","Catherine"];
 var salary=[110000, 45000, 89000, 91000];
 var $ = function(id) { return document.getElementById(id); };
 
-function addSalary(){
+var inBox = document.getElementById("name");
+    inBoxfocus;
+    inBox.setActive;
+    inBox.select();
+
+    function addSalary(){
    var name = document.getElementById("name").value;
    var wage = document.getElementById("salary").value;
 
