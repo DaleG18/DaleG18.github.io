@@ -32,8 +32,9 @@ function displayResults(){
             highest = x; 
          }
          average = average / salary.length;
-    $("results1").innerHTML = "Average Salary =" + average + "<br />";
-    $("results2").innerHTML = "Highest Salary =" + person[highest] + "'s salary is " + salary[highest];
+    $("results1").innerHTML = "<p>Average Salary =" + average + "<br />";
+    $("results2").innerHTML = "Highest Salary =" + person[highest] + "'s salary is " + salary[highest] + "</p>";
+         
 }
 
 function displaySalary(){
