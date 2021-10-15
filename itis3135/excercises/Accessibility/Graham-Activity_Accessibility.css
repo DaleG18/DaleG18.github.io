@@ -4,7 +4,7 @@ html {
   height: 100%;
   background-image: url("images/Candle-Background.jpg");
   background-position: center;
-  background-repeat: auto;
+  background-repeat: repeat;
   background-size: cover;
 }
 
