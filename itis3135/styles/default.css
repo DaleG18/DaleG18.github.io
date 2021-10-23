@@ -11,6 +11,11 @@ body
 	margin-left: 75px;
 	margin-right: 75px;
 }
+p{
+	font-family:Palatino, URW Palladio L, serif;
+	color: rgb(1,41,95) ;
+	text-align: center;
+}
 
 header, footer
 {
@@ -59,6 +64,7 @@ table{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+
 thead{
     background-color: darkorange;
 }
@@ -99,4 +105,41 @@ button{
 	border-radius: 20px;
 	color: orange;
 	font-size: 18px;
+}
+.container{
+	width: 540px;
+	margin: 40px auto;
+	overflow:auto;
+}
+.rightArrow{
+	width:500px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding:3px;
+	border: rebeccapurple solid 2px;
+}
+.rightArrow img{
+	display: none;
+	width: 500px;
+	height:300px;
+}
+.rightArrow img.display{
+	display:inline-block;
+}
+.prev, .next{
+	float:left;
+	margin-top:130px;
+	cursor:pointer;
+}
+.prev{
+	position: relative;
+	margin-right:-45px;
+	z-index: 100;
+}
+.next{
+	position: relative;
+	margin-left: -45px;
+	z-index:100;
 }
