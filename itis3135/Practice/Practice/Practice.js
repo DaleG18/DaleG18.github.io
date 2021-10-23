@@ -16,7 +16,7 @@ window.onload = function() {
 			
 			document.getElementById("order").append('\n $3.45 - Cappuccino - Delicious Cappuccino!');
 			
-			total = (parseFloat(total) + parseFloat(3.45));
+			orderTotal = (parseFloat(orderTotal) + parseFloat(3.45)).toFixed(2);
 			
 			document.getElementById("total").innerHTML="<em>Total:" + orderTotal + " </em>";
 		};
@@ -25,7 +25,8 @@ window.onload = function() {
 			
 			document.getElementById("order").append('$1.95 - Espresso - Delicious espresso. Wanna try it?');
 			
-			total = (parseFloat(orderTotal) + parseFloat(1.95));
+			orderTotal = (parseFloat(orderTotal) + parseFloat(1.95)).toFixed(2);
+			
 			
 			document.getElementById("total").innerHTML="<em>Total:" + orderTotal+" </em>";
 			};
