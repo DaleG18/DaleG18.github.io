@@ -6,7 +6,7 @@ body{
     margin-right: 80px;
 }
 
-header, footer{
+header, footer, h2{
     text-align:center;
     
 }
@@ -23,7 +23,8 @@ figure{
     text-align:center;
 }
 figcaption{
-    font-style:italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73,95,65)
 }
 nav{
     text-align:center;
@@ -38,3 +39,11 @@ button{
     background-color: lemonchiffon;
     font-weight: bold;
 }
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 35%;
+    padding: 6px;
+  }
