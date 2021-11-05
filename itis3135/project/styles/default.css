@@ -1,0 +1,75 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    background-color:ivory;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+header, footer, h2{
+    text-align:center;
+    
+}
+
+p{
+    color:rgb(73,95,65);
+    font-weight:bold;
+    font-family:sans-serif;
+    text-align:center;
+}
+
+
+figure{
+    text-align:center;
+}
+figcaption{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73,95,65)
+}
+nav{
+    text-align:center;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 35%;
+    padding: 6px;
+  }
+  .container{
+	width: 900px;
+	margin: 40px auto;
+	overflow:auto;
+}
+.rightArrow{
+	width:900px;
+	height: 500px;
+	position: relative;
+	overflow:hidden;
+	float: left;
+	
+}
+.rightArrow img{
+	display:none;
+	width: 900px;
+	height:500px;
+}
+.rightArrow img.display{
+	display:inline-block;
+}
+.prev, .next{
+	float:left;
+	margin-top:130px;
+	cursor:pointer;
+}
+.prev{
+	position: relative;
+	margin-right:-45px;
+	z-index: 100;
+}
+.next{
+	position: relative;
+	margin-left: -45px;
+	z-index:100;
+}
