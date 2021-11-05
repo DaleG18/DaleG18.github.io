@@ -11,7 +11,7 @@ header, footer, h2{
     
 }
 
-p{
+p, img, div{
     color:rgb(73,95,65);
     font-weight:bold;
     font-family:sans-serif;
