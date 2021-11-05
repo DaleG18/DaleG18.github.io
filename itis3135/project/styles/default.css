@@ -1,6 +1,6 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: darkblue;
+    color: darkorange;
     background-color:ivory;
     margin-left: 80px;
     margin-right: 80px;
@@ -60,7 +60,7 @@ nav{
 }
 .prev, .next{
 	float:left;
-	margin-top:130px;
+	margin-top:250px;
 	cursor:pointer;
 }
 .prev{
