@@ -32,3 +32,9 @@ ul{
     list-style-type: square;
     color:rgb(120,139,255);
 }
+button{
+    size: 2em;
+    color:indigo;
+    background-color: lemonchiffon;
+    font-weight: bold;
+}
