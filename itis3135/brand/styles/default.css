@@ -34,7 +34,7 @@ ul{
     color:rgb(120,139,255);
 }
 button{
-    size: 2em;
+    font-size: 14px;
     color:indigo;
     background-color: lemonchiffon;
     font-weight: bold;
