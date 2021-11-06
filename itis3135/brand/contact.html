@@ -7,6 +7,7 @@
         <link href="styles/default.css" rel="stylesheet" type="text/css">
         <script src="https://www.w3schools.com/lib/w3.js"></script>
         <script src="https://github.com/Paul-Browne/HTMLInclude"></script>
+        <script src="scripts/form.js"></script>
         <title>Diabolical Gorillas LLC.</title>
     </head>
     <body>
@@ -18,14 +19,14 @@
     </header>
     <main>
         <h2>Sign up for our newletter!</h2>
-        <form action="#">  
+        <form action="#" class="formula">  
             Full Name
-            <label for="full-name">
-                <input class="words" id="full-name" type="text" name="full-name" size="30" required>
+            <label for="fullName">
+                <input class="words" id="fullName" type="text" name="full-name" size="30" required>
             </label> <br>
             Phone Number
-            <label for="phone-num">
-                <input class="numbers" id="phone-num" type="text" name="phone-num" required placeholder="012-345-6789">
+            <label for="phoneNum">
+                <input class="numbers" id="phoneNum" type="text" name="phone-num" required placeholder="012-345-6789">
             </label> <br>
             Email     
             <label for="email">
@@ -39,7 +40,7 @@
                 <option value="Billboard Ads">Billboard Ads</option>
                 <option value="Other">Other</option>
             </select>
-            <button type="submit">Submit</button>
+            <button type="submit" onclick="send()">Submit</button>
             </form>
     </main>
     <footer>
