@@ -6,9 +6,13 @@ body{
     margin-right: 80px;
 }
 
-header, footer, h2{
+header, footer{
     text-align:center;
+   
     
+}
+h2, h3, h4, h5{
+    font-size: 18px;
 }
 
 p{
@@ -16,8 +20,20 @@ p{
     font-weight:bold;
     font-family:sans-serif;
     text-align:center;
+    font-size: 12px;
+}
+a
+{
+	text-decoration: none;
+	color: lavender;
+	font-weight: bold;
 }
 
+a:hover
+{
+	text-decoration: underline;
+	color: lightpink;
+}
 
 figure{
     text-align:center;
@@ -73,3 +89,20 @@ nav{
 	margin-left: -45px;
 	z-index:100;
 }
+  #quest
+  {
+      height:150px;
+      font-size:12px;
+      width: 150px;
+  }
+  button{
+      font-size: 15px;
+      color:darkblue;
+      background-color: orange;
+  }
+  div > img {
+    width:auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+  }
