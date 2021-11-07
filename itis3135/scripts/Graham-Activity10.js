@@ -20,11 +20,12 @@ $(document).ready(function() {
         $("#caption").fadeOut(3000, function ()
         {
             $("#caption").text(caption).fadeIn(3000);
+            $("h2").animate({
+                fontSize: "2.0em",
+            }, 3000);
         });
     			// get the image URL and caption for each image and animate the caption
-                $("h2").animate({
-                    fontSize: "2.0em",
-                }, 3000);
+                
             // cancel the default action of each link
             evt.preventDefault();
     });
