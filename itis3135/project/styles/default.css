@@ -25,14 +25,15 @@ p{
 a
 {
 	text-decoration: none;
-	color: lavender;
+	color: lightpink;
 	font-weight: bold;
+    font-size:18px;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: lightpink;
+	color: pink;
 }
 
 figure{
@@ -47,11 +48,15 @@ nav{
 }
 .row {
     display: flex;
+    width: 700px;
+    height: 300px;
   }
   
   .column {
     flex: 35%;
-    padding: 6px;
+    padding: 20px;
+    width: 700px;
+    height: 300px;
   }
   .container{
 	width: 900px;
@@ -100,4 +105,19 @@ nav{
       color:darkblue;
       background-color: orange;
   }
- 
+.column img{
+    height: 100%;
+    width: 100%;
+    
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.row img{
+    height: 100%;
+    width: 100%;
+    
+  margin-left: auto;
+  margin-right: auto;
+  ;
+}
