@@ -9,5 +9,7 @@ $(document).ready(function() {
         captions: true,
         speed: 3000,
         pager: true,
+        pagerType: 'short',
+        pagerSelctor:"id_pager",
     });
 });
