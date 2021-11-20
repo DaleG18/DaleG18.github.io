@@ -8,7 +8,7 @@ $(document).ready(function() {
         }); // end ready
         function consumeJSON(jsonFileURL) {
         $.ajax({
-        url: "json_files" + jsonFileURL,
+        url: "json_files/" + jsonFileURL,
         //handle as text
         dataType: "text",
         success: function (data) {
