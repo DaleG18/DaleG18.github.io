@@ -1,54 +1,24 @@
 $(document).ready(function() {
-	$.getJSON("json_files/toobin.json",function(data){
-        $.each(data,function(){
-            $.each(this,function(key, value){
-                $("#toobin"),append(
-                    "Month: " + value.month + "<br>" + 
-                    value.title + "<br>" +
-                    "Speaker: " + value.speaker + "<br>" +
-                    value.image + "<br>" + 
-                    value.text + "<br><br>"
-                );
-            })
-        })
-    });
-    $.getJSON("json_files/sorkin.json",function(data){
-        $.each(data,function(){
-            $.each(this,function(key, value){
-                $("#sorkin"),append(
-                    "Month: " + value.month + "<br>" + 
-                    value.title + "<br>" +
-                    "Speaker: " + value.speaker + "<br>" +
-                    value.image + "<br>" + 
-                    value.text + "<br><br>"
-                );
-            })
-        })
-    });
-    $.getJSON("json_files/chua.json",function(data){
-        $.each(data,function(){
-            $.each(this,function(key, value){
-                $("#chua"),append(
-                    "Month: " + value.month + "<br>" + 
-                    value.title + "<br>" +
-                    "Speaker: " + value.speaker + "<br>" +
-                    value.image + "<br>" + 
-                    value.text + "<br><br>"
-                    );
-            })
-        })
-    });
-    $.getJSON("json_files/sampson.json",function(data){
-        $.each(data,function(){
-            $.each(this,function(key, value){
-                $("#sampson"),append(
-                    "Month: " + value.month + "<br>" + 
-                    value.title + "<br>" +
-                    "Speaker: " + value.speaker + "<br>" +
-                    value.image + "<br>" + 
-                    value.text + "<br><br>"
-                    );
-            })
-        })
-    });
-}); // end ready
+	$("#nav_list li").click(function() {
+        var title = $(this).children("a").attr("title");
+               var filename = title+".json";
+        consumeJSON(filename);
+        });
+        
+        }); // end ready
+        function consumeJSON(jsonFileURL) {
+        $.ajax({
+        url: "json_files" + jsonFileURL,
+        //handle as text
+        dataType: "text",
+        success: function (data) {
+        //data downloaded + pass data
+        var json = $.parseJSON(data);
+        // display results
+        $("main > h2").html(json.speakers[0].month + "<br/>" + json.speakers[0].speaker);
+        $("main > h1").html(json.speakers[0].title);
+        $("main > img").attr("src", json.speakers[0].image);
+        $("main > p").html(json.speakers[0].text);
+        }
+        });
+        }
