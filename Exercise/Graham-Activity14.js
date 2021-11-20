@@ -4,18 +4,18 @@ $(document).ready(function() {
                var filename = title+".json";
         getJSON(filename);
         });
-        
         }); // end ready
+        
         function getJSON(jsonFileURL) {
-        $.ajax({
-        url: "json_files/" + jsonFileURL,
-        dataType: "text",
-        success: function (data) {
-        var json = $.parseJSON(data);
-        $("main > h2").html(json.speakers[0].month + "<br/>" + json.speakers[0].speaker);
-        $("main > h1").html(json.speakers[0].title);
-        $("main > img").attr("src", json.speakers[0].image);
-        $("main > p").html(json.speakers[0].text);
+            $.ajax({
+                url: "json_files/" + jsonFileURL,
+                    dataType: "text",
+                        success: function (data) {
+                            var jsonDoc = $.parseJSON(data);
+                                $("main > h2").html(jsonDoc.speakers[0].month + "<br/>" + jsonDoc.speakers[0].speaker);
+                                $("main > h1").html(jsonDoc.speakers[0].title);
+                                $("main > img").attr("src", jsonDoc.speakers[0].image);
+                                $("main > p").html(jsonDoc.speakers[0].text);
         }
         });
         }
