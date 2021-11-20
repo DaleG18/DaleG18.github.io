@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "get",
-        url: "team.xml",
+        url: "team.json",
         beforeSend: function() {
             $("#team").html("Loading...");
         },
@@ -9,15 +9,15 @@ $(document).ready(function() {
         error: function(xhr, status, error) {
             alert("Error: " + xhr.status + " - " + error);
         },
-        dataType: "xml",
+        dataType: "json",
         success: function(data) {
             $("#team").html("");
-            $(data).find("management").children().each(function() {
-                var xmlDoc = $(this);
+            $(data).find("teammembers").children().each(function() {
+                var jsonDoc = $(this);
                 $("#team").append
-                ("<h3>" + xmlDoc.find("name").text() + "</h3>" +
-                          xmlDoc.find("title").text() + "<br>" +
-                          xmlDoc.find("bio").text() + "<br>");
+                ("<h3>" + jsonDoc.find("name").text() + "</h3>" +
+                          jsonDoc.find("title").text() + "<br>" +
+                          jsonDoc.find("bio").text() + "<br>");
             });
         }
     });
