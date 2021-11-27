@@ -10,6 +10,6 @@ $.getJSON(url, function(data){
         html += "<p></p>"; 
     }); 
  
-    $("#photos").html(html); 
+    $("#new_building").html(html); 
 });           
 });
