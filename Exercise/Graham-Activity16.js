@@ -6,6 +6,8 @@ $.getJSON(url, function(data){
     $.each(data.items, function(i, item){ 
         html += "<a href=" + item.media.m + 
         " data-lightbox='flickR' data-title=" + item.title + ">";
+        html += "<img src=" + item.media.m + ">";
+        html += "</a>";
     }); 
  
     $("#new_building").html(html); 
