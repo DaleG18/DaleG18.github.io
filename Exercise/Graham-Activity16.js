@@ -6,7 +6,7 @@ $.getJSON(url, function(data){
     
     $.each(data.items, function(i, item){ 
         html += "<a href=" + item.media.m + 
-        " data-lightbox='flickR' data-title=" + item.title + ">"; //calls lightbox.js
+        "data-lightbox='flickR' data-title=" + item.title + ">"; //calls lightbox.js
             html += "<img src=" + item.media.m + ">"; //adds image tag
                 html += "</a>"; // end of <a> wrapping
     
