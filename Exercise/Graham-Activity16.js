@@ -5,9 +5,10 @@ $.getJSON(url, function(data){
     var html = ""; 
     
     $.each(data.items, function(i, item){ 
-        html += "<a href=" + item.media.m + 
-        "data-lightbox= 'flickR' data-title=" + item.title + ">" +
-        "<img src=" + item.media.m + ">" + "</a>" ; 
+        html += "<a href=" + item.media.m + ">";
+            html +="<img src=" + item.media.m + ">" + "</a>";
+            
+                
     
     }); 
  
