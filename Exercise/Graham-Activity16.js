@@ -7,9 +7,6 @@ $.getJSON(url, function(data){
     $.each(data.items, function(i, item){ 
         html += "<a href=" + item.media.m + ">";
             html +="<img src=" + item.media.m + ">" + "</a>";
-            
-                
-    
     }); 
  
     $("#new_building").html(html); 
