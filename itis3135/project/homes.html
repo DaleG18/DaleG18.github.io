@@ -11,6 +11,7 @@
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
+  <link href="styles/lightbox.css" rel="stylesheet">
     <title>Homes for Rent</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
         <h2>Homes for Rent</h2>
         <section>
             <div>
-                <img src="images/homes.jpg" height=300 width=400 alt="Home">
+                <a href="images/homes.jpg" data-lightbox="homes" data-title="Amber Leigh"><img src="images/homes.jpg" height=300 width=400 alt="homes"></a>
                 <p>Amber Leigh 
                     <br>
                     5B 2BA 
@@ -32,7 +33,7 @@
             </div>
            
             <div>
-                <img src="images/kitchen.jpg" height=300 width=400 alt="kitchen">
+                <a href="images/kitchen.jpg" data-lightbox="kitchen" data-title="Dilworth"><img src="images/kitchen.jpg" height=300 width=400 alt="kitchen"></a>
                 <p>
                     Dilworth
                     <br>
@@ -46,7 +47,7 @@
        <br>
         <section>
             <div>
-                <img src="images/lawn.jpg" height=300 width=400 alt="Living">
+                <a href="images/lawn.jpg" data-lightbox="lawn" data-title="South End"><img src="images/lawn.jpg" height=300 width=400 alt="lawn"></a>>
                 <p>
                     South End
                     <br>
@@ -56,7 +57,7 @@
                 </p>
             </div>
            <div>
-                <img src="images/bush.jpg" height=300 width=400 alt = bush>
+            <a href="images/bush.jpg" data-lightbox="bush" data-title="Foxcroft"><img src="images/bush.jpg" height=300 width=400 alt="bush"></a>
                 <p>
                     Foxcroft
                     <br>
@@ -80,5 +81,6 @@
            
     </footer>
     <script src = "scripts/include.js"></script>
+    <script src="scripts/lightbox-plus-jquery.js"></script>
 </body>
 </html>
