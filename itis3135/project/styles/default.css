@@ -52,13 +52,6 @@ figcaption{
 nav{
     text-align:center;
 }
-.row {
-    display: flex;
-    width: 700px;
-    height: 300px;
-    padding:0px;
-    
-  }
   
   section {
     display: grid;
@@ -80,22 +73,6 @@ nav{
       color:darkblue;
       background-color: orange;
   }
-.column img{
-    height: 100%;
-    width: 100%;
-    
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-.row img{
-    height: 100%;
-    width: 100%;
-    
-  margin-left: auto;
-  margin-right: auto;
-  ;
-}
 .bx-wrapper {
 	margin-bottom: 20px;
 }
