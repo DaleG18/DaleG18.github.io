@@ -7,9 +7,9 @@ $(document).ready(function() {
         slideMargin: 20,
         randomStart: true,
         captions: true,
-        speed: 3000,
+        speed: 4000,
         pager: true,
         pagerType: 'short',
-        pagerSelctor:"id_pager",
+        pagerSelctor:"index_pager",
     });
 });
