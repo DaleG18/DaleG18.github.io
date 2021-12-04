@@ -11,6 +11,10 @@
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <title>Questions</title>
 </head>
 <body>
@@ -24,11 +28,11 @@
         Full Name
         <label for="full-name">
             <input class="words" id="full-name" type="text" name="full-name" size="30" required>
-        </label>
+        </label> <br>
         Phone Number
         <label for="phone-num">
             <input class="numbers" id="phone-num" type="text" name="phone-num" required placeholder="012-345-6789">
-        </label>
+        </label> <br>
         Email     
         <label for="email">
                 <input class="email" id="email" type="text" name="email" required>
@@ -39,6 +43,8 @@
         <label for="quest">
             <input class="words" id="quest" type="text" name="quest" required>
         </label> <br>
+        <p>When is a good day to contact you?<input type="text" id="calendar">
+        </p>
         <button class="center" type="submit">Submit</button>
     </form>
     </main>
