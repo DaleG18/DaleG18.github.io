@@ -4,9 +4,9 @@ $(document).ready(function(){
         $.each(this, function(key, value) {
         $("#services").append(
             "<img src="+"'"+value.image+"'><br>"+
-            "<h2>" + value.full_name + "</h2>" +
-            "<h3>" + value.department + "</h3>" +
-            "<h4>" + value.phone_number + "</h4>" +
+            "<h3>" + value.full_name + "</h3>" +
+            "<h4>" + value.department + "</h4>" +
+            "<h5>" + value.phone_number + "</h5>" +
             "<p>" + value.bio + "</p><br>"
                         );
                     });
