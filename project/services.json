@@ -1,0 +1,24 @@
+{"services":[
+	{
+		"full_name": "Tailor Made Lawns",
+		"image": "services/land.jpg",
+		"department": "Lawn Services",
+        "phone_number": "(828)465-4070",
+		"bio": "4.9 Star Rated Lawn Care Service with 491 Google Reviews"
+
+	},
+	{
+		"full_name": "Michael and Sons Electricity",
+		"image": "services/electric.jpg",
+		"department": "HVAC Contractor Services",
+        "phone_number":"(704)264-1358",
+		"bio": "4.5 Star Rated Electrical Service with 1,445 Google Reviews"
+	},
+	{
+		"full_name": "Morris Jenkins Plumbing",
+		"image": "services/plumbing.jpg",
+	    "department": "HVAC Contractor Services",
+        "phone_number":"(704)357-0484",
+		"bio": "4.9 Star Rated Plumbing Service with 14,279 Google Reviews"
+	}
+]}
