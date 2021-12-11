@@ -11,8 +11,8 @@ $(document).ready(function() {
             $.each(data, function(){
                 $.each(this, function(key, value){
                 $("#info").append
-                ("<h3>"+ value.title+ "</h3>" +
-                "<p>" + value.pgraph +"</p> <br>"
+                ("<h3>"+ value.title+ "</h3>" + //prints value of title as h3
+                "<p>" + value.pgraph +"</p> <br>" // prints value of pgraph as p
                 )
             })  
             })
