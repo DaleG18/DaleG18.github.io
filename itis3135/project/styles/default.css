@@ -64,7 +64,6 @@ nav{
     gap: 4px;
     grid-auto-flow: column;
   }
-
   #quest
   {
       height:150px;
