@@ -1,6 +1,6 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: darkorange;
+    color: rgb(	204, 112, 0);
     background-color:ivory;
     width: 540px;
 	margin: 0 auto;
@@ -35,7 +35,7 @@ p{
 a
 {
 	text-decoration: none;
-	color: lightpink;
+	color: rgb(0, 92, 204);
 	font-weight: bold;
     font-size:18px;
 }
@@ -43,7 +43,7 @@ a
 a:hover
 {
 	text-decoration: underline;
-	color: pink;
+	color: rgb(0, 69, 153);
 }
 
 figure{
