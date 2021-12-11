@@ -3,11 +3,7 @@ $(document).ready(function() {
         type: "get",
         url: "info.json",
         beforeSend: function() {
-            $("#info").html("Loading...");
-        },
-        timeout: 10000,
-        error: function(xhr, status, error) {
-            alert("Error: " + xhr.status + " - " + error);
+            $("#info").html("");
         },
         dataType: "json",
         success: function(data) {
