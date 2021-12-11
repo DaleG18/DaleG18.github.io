@@ -5,7 +5,10 @@ $(document).ready(function() {
         beforeSend: function() {
             $("#info").html("Loading...");
         },
-        
+        timeout: 10000,
+        error: function(xhr, status, error) {
+            alert("Error: " + xhr.status + " - " + error);
+        },
         dataType: "json",
         success: function(data) {
             $("#team").html("");
