@@ -7,6 +7,7 @@ $(document).ready(function(){
             "<h3>" + value.full_name + "</h3>" +
             "<h4>" + value.department + "</h4>" +
             "<h5>" + value.phone_number + "</h5>" +
+            "<a href=" + value.website + ">" + value.full_name +"</a>" + 
             "<p>" + value.bio + "</p><br>"
                         );
                     });
