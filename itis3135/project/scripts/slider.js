@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $("#slider").bxSlider({
-        auto: true,
+        auto: true, //auto slide functionality along with other functions to make slider customizable
         minSlides: 1,
         maxSlides: 1,
         slideWidth: 500,
@@ -10,6 +10,6 @@ $(document).ready(function() {
         speed: 4000,
         pager: true,
         pagerType: 'short',
-        pagerSelctor:"index_pager",
+        pagerSelctor:"index_pager", 
     });
 });
