@@ -46,3 +46,48 @@ h2{
 	line-height: 0px;
 	color:rgb(255, 91, 46);
 }
+
+a
+{
+	text-decoration: none;
+	color: rgba(255, 91, 46, 0.747);
+	font-weight: bold;
+   
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: rgb(255, 91, 46);
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: right;
+    color: rgb(255, 91, 46)
+}
+form{
+    text-align: center;
+}
+.words
+{
+    width:400px;
+    font-size:14pt;
+}
+.centered
+{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
