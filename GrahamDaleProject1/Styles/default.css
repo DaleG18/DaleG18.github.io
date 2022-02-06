@@ -10,7 +10,7 @@ p{
 	font-family:Palatino, URW Palladio L, serif;
 	color: rgb(255, 91, 46) ;
 	text-align: center;
-    font-size: 24px
+    font-size: 14px
 }
 
 header
@@ -39,6 +39,7 @@ h3,h4
 	text-align:center;
 	line-height: 0px;
 	color:rgb(255, 91, 46);
+    font-size: 24px;
 }
 h2{
     font-family: Palatino, URW Palladio L, serif;
@@ -90,4 +91,7 @@ form{
 }
 main{
     text-align: center;
+}
+.margRight{
+    margin-right: 150 px;
 }
