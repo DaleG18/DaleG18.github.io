@@ -45,8 +45,3 @@ app.use((err,req,res,next) =>{
     res.status(err.status);
     res.render('error',{error:err});
 });
-
-//start the server
-app.listen(port, host, () =>{
-    console.log('server is running on port', port);
-});
