@@ -1,0 +1,34 @@
+<%- include('../partials/header.ejs')%>
+<nav>
+    <h2>
+        <a href = '/connections'>Connections</a>
+
+</h2>
+</nav>
+<div class = "content">
+    <% for(let i=0; i<data.topics.length; i++){ %>
+        <h3>
+            <%= data.topics[i] %>
+        </h3>
+        <ul class="list-group list-group-flush ml-3">
+            <% for(let j=0; j < data.connections.length; j++){ %>
+
+<% if(data.connections[j].topic == data.topics[i] ){%>
+    <li class="list-group-item border-0">
+        <a href="/connections/<%= data.connections[j].id%>">
+            <%= data.connections[j].title %>
+        </a>
+    </li>
+    <% } %>
+
+        <% }%>
+</ul>
+<% } %>
+    </div>
+            
+   <br> 
+<p>
+Page built by Dale Graham
+</p>
+</main>
+<%- include('../partials/footer.ejs')%>
