@@ -1,0 +1,118 @@
+body
+{
+	font-family:Palatino, URW Palladio L, serif;
+	color: rgb(1,41,95) ;
+	background-color: rgb(255,248,231);
+	margin-left: 75px;
+	margin-right: 75px;
+}
+p{
+	font-family:Palatino, URW Palladio L, serif;
+	color: rgb(255, 91, 46) ;
+	text-align: center;
+    font-size: 14px
+}
+
+header
+{
+	text-align: left;
+	background-color: rgb(109, 113, 46);
+}
+footer
+{
+        text-align: center;
+        background-color: rgb(109, 113, 46);
+}
+.container {
+    position: relative;
+  }
+  
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+h3,h4
+{
+	font-family: Palatino, URW Palladio L, serif;
+	text-align:center;
+	line-height: 0px;
+	color:rgb(255, 91, 46);
+    font-size: 24px;
+}
+h2{
+    font-family: Palatino, URW Palladio L, serif;
+	text-align:left;
+	line-height: 0px;
+	color:rgb(255, 91, 46);
+}
+
+a
+{
+	text-decoration: none;
+	color: rgba(255, 91, 46, 0.747);
+	font-weight: bold;
+   
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: rgb(255, 91, 46);
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: right;
+    color: rgb(255, 91, 46)
+}
+form{
+    text-align: center;
+}
+.words
+{
+    width:400px;
+    font-size:14pt;
+}
+.centered
+{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+.success {
+	background: rgba(108, 192, 112, 0.7);
+	color: #fff;
+	width: 70%;
+	text-align: center;
+	padding: 10px 10px;
+  }
+  
+  .error {
+	background: rgba(255, 102, 51, 0.7);
+	color: #fff;
+	width: 70%;
+	text-align: center;
+	padding: 10px 10px;
+  }
+  .styled{
+	  text-align: center;
+	  border-color: navy;
+	  border: 1px solid;
+	  table-layout: fixed;
+	  width: 100%;
+	  border-collapse: collapse;
+}
+  
