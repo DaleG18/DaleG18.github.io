@@ -1,0 +1,44 @@
+<html lang = "en">
+
+    <head>
+        <meta charset = "UTF-8">
+        <link href= "/css/style.css" rel="stylesheet" type="text/css">
+        <title>Home Page</title>
+    </head>
+        <body>
+            <header class = "container">
+                <a href = '/'>
+                    <img src = "/images/zoro.jpg" width= "300" height = "186" alt= "Brand">
+                </a>
+                <nav class = "topright">
+                    <%if(!user) {%>
+                        <a href='/users/new'>Sign Up</a>
+                        ||
+                        <a href='/users/login'>Login</a>
+                    <%} else {%>
+                        <a href = '/connections/new'>Start a New Connection</a>
+                        ||
+                        <a href='/users/profile'>Profile</a>
+                        ||
+                        <a href='/users/logout'>Logout</a>
+                    <%}%>
+                    <br>
+                   __________________________________________________________________________________________
+                </nav>
+                <% if(errorMessages.length > 0) {%>
+                    <% errorMessages.forEach(message=>{%>
+                        <div class='error'>
+                            <%=message%>
+                        </div>
+                        <%});%>
+                            <%}%>
+                
+                                <% if(successMessages.length > 0) {%>
+                
+                                    <% successMessages.forEach(message=>{%>
+                                        <div class='success'>
+                                            <%=message%>
+                                        </div>
+                                        <%});%>
+                                            <%}%>
+            </header>
