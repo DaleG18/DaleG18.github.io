@@ -1,0 +1,42 @@
+<%- include('../partials/header.ejs')%>
+<nav>
+    <h2>
+        <a href = '/connections'>Connections</a>
+
+</h2>
+</nav>
+    <main class = "container" >
+        <%= connection.title%>
+       <div> 
+        <%if(user == connection.author._id) {%>
+        <form>
+            <button type = 'submit' formmethod="GET" formaction="/connections/<%= connection.id%>/edit">Edit</button>
+            <button type = 'submit' formmethod="POST" formaction="/connections/<%= connection.id%>/?_method=DELETE">Delete</button>
+        </form>
+        <<%} if(user != connection.author._id) {%>
+            <form>
+                <p><%=rsvps.length%> member(s) have RSVP'd</p>
+                <p>RSVP To Attend!</p>
+                <button type = 'submit' formmethod="POST" formaction="/connections/<%= connection.id%>/rsvp" name="rsvp" value = 'Yes'>YES</button>
+                <button type = 'submit' formmethod="POST" formaction="/connections/<%= connection.id%>/rsvp" name= "rsvp" value = 'No'>NO</button>
+                <button type = 'submit' formmethod="POST" formaction="/connections/<%= connection.id%>/rsvp" name="rsvp" value = 'Maybe'>MAYBE</button>
+            </form>
+            <%}%>
+            <img src = "<%=connection.imageURL%>" width= "50%" height="50%" alt="anime">
+            <p>
+                Hosted by <%=connection.hostName%>
+                <br>Created by <%=connection.author.firstName + ' ' + connection.author.lastName%>
+                <br> <%=connection.date%>
+                <br> <%=connection.startTime%> - <%=connection.endTime %>
+                <br><%=connection.date%>
+                
+            </p>
+        <h4>Details</h4>
+        <p><%=connection.details%>
+        </p>
+    <br>
+<p>
+Page built by Dale Graham
+</p>
+</main>
+<%- include('../partials/footer.ejs')%>
