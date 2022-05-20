@@ -1,0 +1,141 @@
+[{
+  "_id": {
+    "$oid": "62636ebc5400b5c7fa932bfb"
+  },
+  "title": "Playoff Games",
+  "topic": "Sports",
+  "details": "Lets Watch the next NBA Playoffs Game",
+  "date": {
+    "$date": {
+      "$numberLong": "1651968000000"
+    }
+  },
+  "startTime": "17:12",
+  "endTime": "18:12",
+  "hostName": "Dale Graham",
+  "imageURL": "https://cdn.nba.com/manage/2019/03/Larry_Bird_Emotion_ISO.jpg",
+  "author": {
+    "$oid": "62635302003a7b201d9ec176"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626374fc8af470c208ccf599"
+  },
+  "title": "Lets Discuss One Piece",
+  "topic": "Anime",
+  "details": "Get the scoop and discuss the latest one piece chapters",
+  "date": {
+    "$date": {
+      "$numberLong": "1648771200000"
+    }
+  },
+  "startTime": "19:30",
+  "endTime": "20:30",
+  "hostName": "Dale Graham",
+  "imageURL": "http://www.onepiecepodcast.com/wp-content/uploads/2016/09/oda-fish.png",
+  "author": {
+    "$oid": "62635302003a7b201d9ec176"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626375458af470c208ccf59f"
+  },
+  "title": "Lets watch Attack on Titan!",
+  "topic": "Anime",
+  "details": "Join your fellow Attack on Titan fans",
+  "date": {
+    "$date": {
+      "$numberLong": "1649030400000"
+    }
+  },
+  "startTime": "16:40",
+  "endTime": "20:40",
+  "hostName": "Jaicie Smallwood",
+  "imageURL": "https://bookriot.com/wp-content/uploads/2022/01/manga-series-1280x720.png",
+  "author": {
+    "$oid": "62635302003a7b201d9ec176"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6263757c8af470c208ccf5a5"
+  },
+  "title": "Naruto Shippuden and Snacks",
+  "topic": "Anime",
+  "details": "Lets recap the great show",
+  "date": {
+    "$date": {
+      "$numberLong": "1649462400000"
+    }
+  },
+  "startTime": "21:00",
+  "endTime": "22:00",
+  "hostName": "Jordan McNeil",
+  "imageURL": "https://otakukart.com/wp-content/uploads/2022/01/naruto-six-paths-1140x641.jpg",
+  "author": {
+    "$oid": "62635302003a7b201d9ec176"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626376368af470c208ccf5b6"
+  },
+  "title": "Looking for a lift partner?",
+  "topic": "Sports",
+  "details": "Need someone to spot you? We got you",
+  "date": {
+    "$date": {
+      "$numberLong": "1649289600000"
+    }
+  },
+  "startTime": "17:44",
+  "endTime": "19:44",
+  "hostName": "Lawrence Grandberry",
+  "imageURL": "https://www.bodybuilding.com/fun/images/2015/layne-norton-bench-tutorial-graphics-5-700xh.jpg",
+  "author": {
+    "$oid": "626375c78af470c208ccf5b1"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "626376778af470c208ccf5c7"
+  },
+  "title": "Click for a hoop session",
+  "topic": "Sports",
+  "details": "Need someone to play basketball with?",
+  "date": {
+    "$date": {
+      "$numberLong": "1650585600000"
+    }
+  },
+  "startTime": "16:45",
+  "endTime": "18:45",
+  "hostName": "Abdul Yate",
+  "imageURL": "https://img.grouponcdn.com/iam/2vY7jzoUhdzVpkSDZX6vqzgwwE98/2v-2048x1229/v1/c870x524.jpg",
+  "author": {
+    "$oid": "626375c78af470c208ccf5b1"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6275936e5e2e365ce3698e10"
+  },
+  "title": "Boxing",
+  "topic": "Sports",
+  "details": "One on One Lessons with Mike Tyson",
+  "date": {
+    "$date": {
+      "$numberLong": "1652486400000"
+    }
+  },
+  "startTime": "22:30",
+  "endTime": "23:30",
+  "hostName": "Mike Tyson",
+  "imageURL": "https://blog.ringside.com/wp-content/uploads/2019/10/sparring-session.jpg",
+  "author": {
+    "$oid": "626375c78af470c208ccf5b1"
+  },
+  "__v": 0
+}]
